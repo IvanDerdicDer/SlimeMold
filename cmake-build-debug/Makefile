@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SlimeMouldInC
+# Target rules for targets named SlimeMold
 
 # Build rule for target.
-SlimeMouldInC: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SlimeMouldInC
-.PHONY : SlimeMouldInC
+SlimeMold: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SlimeMold
+.PHONY : SlimeMold
 
 # fast build rule for target.
-SlimeMouldInC/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMouldInC.dir\build.make CMakeFiles/SlimeMouldInC.dir/build
-.PHONY : SlimeMouldInC/fast
+SlimeMold/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMold.dir\build.make CMakeFiles/SlimeMold.dir/build
+.PHONY : SlimeMold/fast
 
 main.obj: main.c.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMouldInC.dir\build.make CMakeFiles/SlimeMouldInC.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMold.dir\build.make CMakeFiles/SlimeMold.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -141,7 +141,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMouldInC.dir\build.make CMakeFiles/SlimeMouldInC.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMold.dir\build.make CMakeFiles/SlimeMold.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -149,7 +149,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMouldInC.dir\build.make CMakeFiles/SlimeMouldInC.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMold.dir\build.make CMakeFiles/SlimeMold.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SlimeMouldInC
+	@echo ... SlimeMold
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

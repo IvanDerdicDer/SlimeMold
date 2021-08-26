@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\ivand\MyProjects\SlimeMold\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/SlimeMouldInC.dir/all
+all: CMakeFiles/SlimeMold.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/SlimeMouldInC.dir/clean
+clean: CMakeFiles/SlimeMold.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SlimeMouldInC.dir
+# Target rules for target CMakeFiles/SlimeMold.dir
 
 # All Build rule for target.
-CMakeFiles/SlimeMouldInC.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMouldInC.dir\build.make CMakeFiles/SlimeMouldInC.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMouldInC.dir\build.make CMakeFiles/SlimeMouldInC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ivand\MyProjects\SlimeMold\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target SlimeMouldInC"
-.PHONY : CMakeFiles/SlimeMouldInC.dir/all
+CMakeFiles/SlimeMold.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMold.dir\build.make CMakeFiles/SlimeMold.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMold.dir\build.make CMakeFiles/SlimeMold.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ivand\MyProjects\SlimeMold\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target SlimeMold"
+.PHONY : CMakeFiles/SlimeMold.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SlimeMouldInC.dir/rule: cmake_check_build_system
+CMakeFiles/SlimeMold.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ivand\MyProjects\SlimeMold\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SlimeMouldInC.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SlimeMold.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ivand\MyProjects\SlimeMold\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/SlimeMouldInC.dir/rule
+.PHONY : CMakeFiles/SlimeMold.dir/rule
 
 # Convenience name for target.
-SlimeMouldInC: CMakeFiles/SlimeMouldInC.dir/rule
-.PHONY : SlimeMouldInC
+SlimeMold: CMakeFiles/SlimeMold.dir/rule
+.PHONY : SlimeMold
 
 # clean rule for target.
-CMakeFiles/SlimeMouldInC.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMouldInC.dir\build.make CMakeFiles/SlimeMouldInC.dir/clean
-.PHONY : CMakeFiles/SlimeMouldInC.dir/clean
+CMakeFiles/SlimeMold.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SlimeMold.dir\build.make CMakeFiles/SlimeMold.dir/clean
+.PHONY : CMakeFiles/SlimeMold.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
