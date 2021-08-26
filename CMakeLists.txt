@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
-project(SlimeMouldInC C)
+project(SlimeMold C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(SlimeMouldInC main.c intQueue.h intList.h)
+add_executable(SlimeMold main.c intQueue.h intList.h)
